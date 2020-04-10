@@ -15,6 +15,7 @@
 		8409F0492440D89F007A3A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8409F0472440D89F007A3A44 /* LaunchScreen.storyboard */; };
 		8409F0522440D903007A3A44 /* TutorialList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F0512440D903007A3A44 /* TutorialList.swift */; };
 		8409F0552440DF14007A3A44 /* TextDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F0542440DF14007A3A44 /* TextDemo.swift */; };
+		8409F0572440ED89007A3A44 /* ImageDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8409F0562440ED89007A3A44 /* ImageDemo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		8409F04A2440D89F007A3A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8409F0512440D903007A3A44 /* TutorialList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialList.swift; sourceTree = "<group>"; };
 		8409F0542440DF14007A3A44 /* TextDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextDemo.swift; sourceTree = "<group>"; };
+		8409F0562440ED89007A3A44 /* ImageDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8409F0542440DF14007A3A44 /* TextDemo.swift */,
+				8409F0562440ED89007A3A44 /* ImageDemo.swift */,
 			);
 			path = "SwiftUI Views";
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 			files = (
 				8409F03D2440D89E007A3A44 /* AppDelegate.swift in Sources */,
 				8409F0552440DF14007A3A44 /* TextDemo.swift in Sources */,
+				8409F0572440ED89007A3A44 /* ImageDemo.swift in Sources */,
 				8409F0522440D903007A3A44 /* TutorialList.swift in Sources */,
 				8409F03F2440D89E007A3A44 /* SceneDelegate.swift in Sources */,
 				8409F0412440D89E007A3A44 /* ContentView.swift in Sources */,
