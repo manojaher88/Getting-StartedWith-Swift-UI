@@ -10,7 +10,16 @@ import SwiftUI
 
 struct ButtonDemo: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            print("Button Tapped")
+        }) {
+            Text("This is a new button")
+            Image("jupiter")
+            .resizable()
+            .scaledToFit()
+        }
+            // Can use any PrimitiveButtonStyle
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
