@@ -9,6 +9,7 @@
 import SwiftUI
 
 struct ImageDemo: View {
+    
     var body: some View {
         VStack {
             Image("jupiter")
@@ -20,11 +21,11 @@ struct ImageDemo: View {
                 .scaledToFit()
         }
     }
+
 }
 
 struct ImageDemo_Previews: PreviewProvider {
     static var previews: some View {
         ImageDemo()
-            .colorScheme(.light)
     }
 }
