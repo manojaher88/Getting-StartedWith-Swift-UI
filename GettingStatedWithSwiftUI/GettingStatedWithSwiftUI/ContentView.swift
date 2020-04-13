@@ -16,7 +16,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(items, id: \.self) { item in
-                    NavigationLink(destination: EmptyView()) {
+                    NavigationLink(destination: TextDemo()) {
                         Text(item.rawValue)
                     }
                 }
